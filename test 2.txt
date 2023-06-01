@@ -1,0 +1,20 @@
+1 .ans-To execute one command again and again  based on a condition we use loop.
+2.ans-var is a functional scoped variable.the value in var variable can be redeclared and reassigned.whereas let is a block scoped variable ,the value in let variable can be reassigned but cannot be redeclared.
+            var allows hoisting ,let does not allow.
+3.ans-java script has eight data types:
+           number,null boolean ,symbol,string,undefined,bigint,symbol,object is a special data type.
+4.ans-function ()=>{
+  var sum =0; 
+  for(var i=0;i<arguments.length;i++){
+     sum += arguments[i];
+  }
+   return sum;
+}
+
+5.ans-document.getElementsByTagName("div");
+6.ans-object type variable points to the location where a object is being stored.
+7.ans-let person={name:'anjali', gender:'female'}
+{...person}
+           let person=object.assign(person,newperson);
+8.ans-const obj="firstName:"james", lastName:"Bond"};
+            console.log('my name is${obj.firstName} ${obj.lastName'};
